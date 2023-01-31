@@ -48,4 +48,4 @@ myCase.toLowerCase();
 // from your first name to a variable called myNameLetter.
 // Refer to the examples of each method at MDN Web Docs.
 let myName = "Avery";
-let myNameLetter = myName.charAt(Math.floor(Math.random() * 6));
+let myNameLetter = myName.charAt(Math.floor(Math.random() * (myName.length + 1)));
